@@ -1,10 +1,10 @@
 # Universal Wifi pineapple hardware cloner: Builds
 
-For a long time I have noticed that there are people stealing the authorship of this project that started in 2018.
-Also there is people who go further and are selling the devices ready to use...
+For a long time I have noticed that there are people stealing the authorship of this project that started in 2018.<br>
+Also there is people who go further and are selling the devices ready to use...<br>
 
-So to prevent anyone from being scammed paying for something that is public and free, I decided to make a second repo with the builds already generated.
-Maybe some routers need a little more work as is the case of the GL-AR150 where [this script](https://github.com/xchwarze/wifi-pineapple-cloner/blob/master/fixs/nano/02-network-ar150-fix) does the magic.
+So to prevent anyone from being scammed paying for something that is public and free, I decided to make a second repo with the builds already generated.<br>
+Maybe some routers need a little more work as is the case of the GL-AR150 where [this script](https://github.com/xchwarze/wifi-pineapple-cloner/blob/master/fixs/nano/02-network-ar150-fix) does the magic.<br>
 The idea is to invite the community to collaborate with these extra scripts, they can be sent as pull requests from the [original project](https://github.com/xchwarze/wifi-pineapple-cloner).
 
 
@@ -82,8 +82,8 @@ TP-Link  | archer-c7-v5 | 750 | 16 | 128 | [docs link](https://openwrt.org/toh/h
 
 
 ## Recomended setup
-1. GL-AR150 https://www.gl-inet.com/products/gl-ar150/ or TPLink Archer C7
-2. USB 2.0 2 ports hub https://www.ebay.co.uk/itm/USB-2-0-2-Dual-Port-Hub-For-Laptop-Macbook-Notebook-PC-Mouse-Flash-Disk/273070654192
+1. [GL-AR150](https://www.gl-inet.com/products/gl-ar150/) or TPLink Archer C7
+2. USB 2.0 [2 ports hub](https://www.ebay.co.uk/itm/USB-2-0-2-Dual-Port-Hub-For-Laptop-Macbook-Notebook-PC-Mouse-Flash-Disk/273070654192)
 2. Generic RT5370 adapter
 3. Please support Hak5 work and buy the original hardware
 
