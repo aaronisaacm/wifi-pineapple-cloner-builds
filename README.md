@@ -15,41 +15,39 @@ All this will be handled in the [original project](https://github.com/xchwarze/w
 
 ## Supported devices
 
-Pineapple NANO compatible hardware.
-This is a uncomplete list!
-
-Brand       | Device         | CPU (MHz)         | Flash (MB) | RAM (MB) | More info | Download build |
--------------|-------------|-----------|-----------|-----------|-----------|-----------|
-Buffalo  | WZR-450HP2 | 400 | 32 | 64 | [[openwrt]](https://openwrt.org/toh/buffalo/wzr-450hp2) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/nano-releases/wzr-450hp2-nano-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/nano-releases/wzr-450hp2-nano-mini-sysupgrade.bin)
-Buffalo  | WZR-HP-G300NH v1 | 400 | 32 | 64 | [[openwrt]](https://openwrt.org/toh/hwdata/buffalo/buffalo_wzr-hp-g300nh_v1) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/nano-releases/wzr-hp-g300nh-nano-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/nano-releases/wzr-hp-g300nh-nano-mini-sysupgrade.bin)
-Buffalo  | WZR-HP-G450H v1 | 400 | 32 | 64 | [[openwrt]](https://openwrt.org/toh/hwdata/buffalo/buffalo_wzr-hp-g450h_v1) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/nano-releases/wzr-hp-g450h-nano-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/nano-releases/wzr-hp-g450h-nano-mini-sysupgrade.bin)
-GL.iNet  | GL-AR150 | 400 | 16 | 64 | [[openwrt]](https://openwrt.org/toh/hwdata/gl.inet/gl.inet_gl-ar150) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/nano-releases/gl-ar150-nano-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/nano-releases/gl-ar150-nano-mini-sysupgrade.bin)
-GL.iNet  | GL-AR300 v3 | 560 | 16 | 128 | [[openwrt]](https://openwrt.org/toh/hwdata/gl.inet/gl.inet_gl-ar300) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/nano-releases/gl-ar300-nano-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/nano-releases/gl-ar300-nano-mini-sysupgrade.bin)
-GL.iNet  | GL-AR300M | 650 | 16 | 128 | [[openwrt]](https://openwrt.org/toh/gl.inet/gl-ar300m) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/nano-releases/gl-ar300m-nano-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/nano-releases/gl-ar300m-nano-mini-sysupgrade.bin)
+All builds are made with:
+* OpenWrt 19.07.7
+* Universal Wifi pineapple hardware cloner (WPC) v2 
+* The config used to build was the "universal" (flavor: universal). This is designed to be able to mount a TETRA on any hardware.
 <br>
 
-
-Pineapple TETRA compatible hardware.
-This is a uncomplete list!
-
-Brand       | Device         | CPU (MHz)         | Flash (MB) | RAM (MB) | More info | Download build |
--------------|-------------|-----------|-----------|-----------|-----------|-----------|
-Buffalo  | WZR-600DHP | 680 | 32 | 128 | [[openwrt]](https://openwrt.org/toh/hwdata/buffalo/buffalo_wzr-600dhp) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/wzr-600dhp-tetra-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/wzr-600dhp-tetra-mini-sysupgrade.bin)
-Buffalo  | WZR-HP-AG300H v1 | 680 | 32 | 128 | [[openwrt]](https://openwrt.org/toh/hwdata/buffalo/buffalo_wzr-hp-ag300h_v1) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/wzr-hp-ag300h-tetra-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/wzr-hp-ag300h-tetra-mini-sysupgrade.bin)
-Buffalo  | WZR-HP-G300NH2 | 400 | 32 | 64 | [[openwrt]](https://openwrt.org/toh/hwdata/buffalo/buffalo_wzr-hp-g300nh2_v2) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/wzr-hp-g300nh2-tetra-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/wzr-hp-g300nh2-tetra-mini-sysupgrade.bin)
-D-Link   | DGL-5500 A1 | 720 | 16 | 128 | [[openwrt]](https://openwrt.org/toh/hwdata/d-link/d-link_dgl-5500_a1) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/dgl-5500-a1-tetra-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/dgl-5500-a1-tetra-mini-sysupgrade.bin)
-D-Link   | DIR-835 A1 | 560 | 16 | 128 | [[openwrt]](https://openwrt.org/toh/d-link/dir-835_a1) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/dir-835-a1-tetra-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/dir-835-a1-tetra-mini-sysupgrade.bin)
-D-Link   | DIR-869 A1 | 750 | 16 | 64 | [[openwrt]](https://openwrt.org/toh/hwdata/d-link/d-link_dir-869_a1) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/dir-869-a1-tetra-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/dir-869-a1-tetra-mini-sysupgrade.bin)
-GL.iNet  | GL-AR750 | 650 | 16 | 128 | [[openwrt]](https://openwrt.org/toh/hwdata/gl.inet/gl.inet_gl-ar750) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/gl-ar750-tetra-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/gl-ar750-tetra-mini-sysupgrade.bin)
-GL.iNet  | GL-AR750S v1 | 775 | 16 | 128 | [[openwrt]](https://openwrt.org/toh/hwdata/gl.inet/gl.inet_gl-ar750s) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/gl-ar750s-tetra-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/gl-ar750s-tetra-mini-sysupgrade.bin)
-TP-Link  | Archer C7 v2 | 720 | 16 | 128 | [[openwrt]](https://openwrt.org/toh/hwdata/tp-link/tp-link_archer_c7_ac1750_v2.0) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/archer-c7-v2-tetra-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/archer-c7-v2-tetra-mini-sysupgrade.bin)
-TP-Link  | Archer C7 v4 | 775 | 16 | 128 | [[openwrt]](https://openwrt.org/toh/hwdata/tp-link/tp-link_archer_c7_v4) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/archer-c7-v4-tetra-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/archer-c7-v4-tetra-mini-sysupgrade.bin)
-TP-Link  | Archer C7 v5 | 750 | 16 | 128 | [[openwrt]](https://openwrt.org/toh/hwdata/tp-link/tp-link_archer_c7_v5) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/archer-c7-v5-tetra-sysupgrade.bin) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/archer-c7-v5-tetra-mini-sysupgrade.bin)
-Zyxel  | NBG6716 | 720 | 16 + 256 | 256 | [[openwrt]](https://openwrt.org/toh/zyxel/nbg6716) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/nbg6716-tetra-sysupgrade.tar) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/nbg6716-tetra-mini-sysupgrade.tar)
-NETGEAR  | R6100 | 560 | 128 | 128 | [[openwrt]](https://openwrt.org/toh/netgear/r6100) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/r6100-tetra-sysupgrade.tar) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/r6100-tetra-mini-sysupgrade.tar)
-NETGEAR  | WNDR3700 V4 | 560 | 128 | 128 | [[openwrt]](https://openwrt.org/toh/netgear/wndr3700) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/wndr3700v4-tetra-sysupgrade.tar) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/wndr3700v4-tetra-mini-sysupgrade.tar)
-NETGEAR  | WNDR4300 V1 | 560 | 128 | 128 | [[openwrt]](https://openwrt.org/toh/netgear/wndr4300) | [[normal]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/wndr4300-tetra-sysupgrade.tar) [[mini]](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/tetra-releases/wndr4300-tetra-mini-sysupgrade.tar)
+Remember that...
+* If you are going to use this on hardware with a single wifi board you have to add a second.
+* If your hardware has less than 32 megabytes of space you have to use a pendrive
 <br>
+
+I will only build releases for these manufacturers:
+```
+ALFA Network
+ASUS
+Buffalo
+D-Link
+GL.iNet
+Linksys
+NETGEAR
+TP-Link
+Xiaomi
+ZBT
+ZyXEL
+```
+
+If your manufacturer or model is not built you have to follow the steps of the Universal Wifi pineapple hardware cloner [documentation](https://github.com/xchwarze/wifi-pineapple-cloner).
+
+## Recomended setup
+1. [GL-AR150](https://www.gl-inet.com/products/gl-ar150/) or [TPLink Archer C7](https://www.tp-link.com/en/home-networking/wifi-router/archer-c7/)
+2. USB 2.0 [2 ports hub](https://www.ebay.com/itm/144520475350)
+2. Generic [RT5370 WIFI adapter](https://www.ebay.com/itm/284904442887) **you're really going to need this on hardware that doesn't have two wifis to use**
+3. Please support Hak5 work and buy the original hardware and the new!
 
 
 ## If you want to collaborate with hardware 
