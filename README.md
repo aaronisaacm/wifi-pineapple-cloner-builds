@@ -24,6 +24,8 @@ All builds are made with:
 Remember that...
 * If you are going to use this on hardware with a single wifi board you have to add a second.
 * If your hardware has less than 32 megabytes of space you have to use a pendrive.
+* The pendrive has to be formatted from the pineapple panel `Advanced > USB & Storage > Format SD Card`.
+* When pineapple starts it will run the 20-sd-universal script and install the missing packages on the pendrive from internet.
 <br>
 
 Brand | Device | Type | CPU (MHz) | Flash (MB) | RAM (MB) | Download |
