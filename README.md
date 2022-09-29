@@ -23,25 +23,56 @@ All builds are made with:
 
 Remember that...
 * If you are going to use this on hardware with a single wifi board you have to add a second.
-* If your hardware has less than 32 megabytes of space you have to use a pendrive
+* If your hardware has less than 32 megabytes of space you have to use a pendrive.
 <br>
 
-I will only build releases for these manufacturers:
-```
-ALFA Network
-ASUS
-Buffalo
-D-Link
-GL.iNet
-Linksys
-NETGEAR
-TP-Link
-Xiaomi
-ZBT
-ZyXEL
-```
+Brand | Device | Type | CPU (MHz) | Flash (MB) | RAM (MB) | Download |
+-------------|-------------|-----------|-----------|-----------|-----------|-----------|
+ALFA Network | R36A  | WiFi Router | 650 | 16 | 64 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/r36a-universal-sysupgrade.bin
+ALFA Network | Hornet-UB x2  | Travel Router | 400 | 16 | 64 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/hornet-ub-x2-universal-sysupgrade.bin
+Buffalo | WZR-HP-G300NH v1 | WiFi Router | 400 | 32 | 64 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wzr-hp-g300nh-universal-sysupgrade.bin
+Buffalo | WZR-HP-AG300H v1 | WiFi Router | 680 | 32 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wzr-hp-ag300h-universal-sysupgrade.bin
+Buffalo | WZR-600DHP  | WiFi Router | 680 | 32 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wzr-600dhp-universal-sysupgrade.bin
+Buffalo | WZR-HP-G300NH2 A0A0,A0A1,A1A0,C1A0 | WiFi Router | 400 | 32 | 64 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wzr-hp-g300nh2-universal-sysupgrade.bin
+Buffalo | WZR-HP-G302H A1A0 | WiFi Router | 400 | 32 | 64 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/buffalo_wzr-hp-g302h-a1a0-universal-sysupgrade.bin
+Buffalo | WZR-HP-G450H v1 | WiFi Router | 400 | 32 | 64 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wzr-hp-g450h-universal-sysupgrade.bin
+D-Link | DGL-5500 A1 | WiFi Router | 720 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/dgl-5500-a1-universal-sysupgrade.bin
+D-Link | DHP-1565  | WiFi Router | 560 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/dhp-1565-a1-universal-sysupgrade.bin
+D-Link | DIR-825 C1 | WiFi Router | 560 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/dir-825-c1-universal-sysupgrade.bin
+D-Link | DIR-835 A1 | WiFi Router | 560 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/dir-835-a1-universal-sysupgrade.bin
+GL.iNet | GL-X750 (Spitz)  | WiFi Router | 650 | 16,microSDXC | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/glinet_gl-x750-universal-sysupgrade.bin
+GL.iNet | GL-MiFi  | Travel Router - Battery powered | 400 | 16 | 64 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/gl-mifi-universal-sysupgrade.bin
+GL.iNet | GL-AR150  | Travel Router | 400 | 16 | 64 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/gl-ar150-universal-sysupgrade.bin
+GL.iNet | GL-AR300 v3 | WiFi Router | 560 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/gl-ar300-universal-sysupgrade.bin
+GL.iNet | GL-AR300M-Lite v1 | Travel Router | 650 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/glinet_gl-ar300m-lite-universal-sysupgrade.bin
+GL.iNet | GL-AR300M v1.4.0 | WiFi Router | 650 | 16,128NAND | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/gl-ar300m-universal-sysupgrade.bin
+GL.iNet | GL-AR750  | Travel Router | 650 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/gl-ar750-universal-sysupgrade.bin
+GL.iNet | GL-AR750S v1 | Travel Router | 775 | 16,128NAND,microSDXC | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/gl-ar750s-universal-sysupgrade.bin
+NETGEAR | WNDR3800  | WiFi Router | 680 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wndr3800-universal-sysupgrade.bin
+NETGEAR | WNDR3700 v4 | WiFi Router | 560 | 128NAND | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wndr3700v4-universal-sysupgrade.tar
+NETGEAR | WNDR4300 v1 | WiFi Router | 560 | 128NAND | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wndr4300-universal-sysupgrade.tar
+NETGEAR | WNDR3700 v2 | WiFi Router | 680 | 16 | 64 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wndr3700v2-universal-sysupgrade.bin
+NETGEAR | WNDRMAC v2 | WiFi Router | 680 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wndrmacv2-universal-sysupgrade.bin
+NETGEAR | WNDRMAC v1 | WiFi Router | 680 | 16 | 64 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wndrmac-universal-sysupgrade.bin
+TP-Link | Archer A7 v5 | WiFi Router | 750 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/tplink_archer-a7-v5-universal-sysupgrade.bin
+TP-Link | Archer C5 AC1200 v1 | WiFi Router | 720 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/archer-c5-v1-universal-sysupgrade.bin
+TP-Link | Archer C7 v2,v2.1 | WiFi Router | 720 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/archer-c7-v2-universal-sysupgrade.bin
+TP-Link | Archer C7 v4 | WiFi Router | 775 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/archer-c7-v4-universal-sysupgrade.bin
+TP-Link | Archer C7 v5 | WiFi Router | 750 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/archer-c7-v5-universal-sysupgrade.bin
+TP-Link | Archer C59 v1 | WiFi Router | 775 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/archer-c59-v1-universal-sysupgrade.bin
+TP-Link | Archer C59 v2 | WiFi Router | 775 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/archer-c59-v2-universal-sysupgrade.bin
+TP-Link | TL-WR842N v3 | WiFi Router | 650 | 16 | 64 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/tl-wr842n-v3-universal-sysupgrade.bin
+TP-Link | TL-WR942N v1 | WiFi Router | 775 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/tl-wr942n-v1-universal-sysupgrade.bin
+TP-Link | TL-WR1043ND v4 | WiFi Router | 750 | 16 | 64 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/tl-wr1043nd-v4-universal-sysupgrade.bin
+TP-Link | VR200  | WiFi Router | 500 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/tplink_vr200-universal-sysupgrade.bin
+TP-Link | VR200v  | WiFi Router | 500 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/tplink_vr200v-universal-sysupgrade.bin
+ZBT | ZBT-WD323  | WiFi Router | 560 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/zbtlink_zbt-wd323-universal-sysupgrade.bin
+ZyXEL | NBG6616 A00 | WiFi Router | 720 | 16 | 128 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/NBG6616-universal-sysupgrade.bin
+ZyXEL | NBG6716 A01 | WiFi Router | 720 | 16,256 | 256 | https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/nbg6716-universal-sysupgrade.tar
+<br>
 
 If your manufacturer or model is not built you have to follow the steps of the Universal Wifi pineapple hardware cloner [documentation](https://github.com/xchwarze/wifi-pineapple-cloner).
+
 
 ## Recomended setup
 1. [GL-AR150](https://www.gl-inet.com/products/gl-ar150/) or [TPLink Archer C7](https://www.tp-link.com/en/home-networking/wifi-router/archer-c7/)
