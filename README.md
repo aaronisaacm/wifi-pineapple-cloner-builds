@@ -21,8 +21,9 @@ All builds are made with:
 * The config used to build was the "universal" (flavor: universal). This is designed to be able to mount a TETRA on any hardware.
 <br>
 
-Remember that...
-* If you are going to use this on hardware with a single wifi adapter you have to add a second.
+Keep these things in mind:
+* First install OpenWrt 19.07.7 on the device, then install the update that you will find in this repo.
+* If you are going to use this on hardware with a single wifi adapter router you have to add a second.
 * If your hardware has less than 32 megabytes of space you have to use a pendrive.
 * The pendrive has to be formatted from the pineapple panel `Advanced > USB & Storage > Format SD Card`.
 * When pineapple starts it will run the 20-sd-universal script and install the missing packages on the pendrive from internet.
