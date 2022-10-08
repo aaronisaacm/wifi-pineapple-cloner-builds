@@ -23,10 +23,12 @@ All builds are made with:
 
 Keep these things in mind:
 * First install OpenWrt 19.07.7 on the device, then install the update that you will find in this repo.
+* Install with `do not save configuration over reflash` option checked!
+* The default ssh password is `root`
 * If you are going to use this on hardware with a single wifi adapter router you have to add a second.
 * If your hardware has less than 32 megabytes of space you have to use a pendrive.
 * The pendrive has to be formatted from the pineapple panel `Advanced > USB & Storage > Format SD Card`.
-* When pineapple starts it will run the 20-sd-universal script and install the missing packages on the pendrive from internet.
+* When pineapple starts it will run the `20-sd-universal` script and install the missing packages on the pendrive from internet.
   If you want to install them manually you can run this: 
   `opkg update && opkg --dest sd install python-logging python-openssl python-sqlite3 python-codecs && python -m compileall`
 <br>
