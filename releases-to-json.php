@@ -22,7 +22,7 @@ if (!isset($argv[1])) {
 $version  = $argv[1];
 $folder	  = 'releases';
 $flag     = '-universal';
-$repo_url = 'https://github.com/xchwarze/wifi-pineapple-cloner-builds';
+$repo_url = 'https://github.com/xchwarze/wifi-pineapple-cloner-builds/commits/main';
 $base_url = 'https://raw.githubusercontent.com/xchwarze/wifi-pineapple-cloner-builds/main/releases';
 
 
