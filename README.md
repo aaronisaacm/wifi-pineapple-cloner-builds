@@ -33,6 +33,8 @@ Keep these things in mind:
   `opkg update && opkg --dest sd install python-logging python-openssl python-sqlite3 python-codecs && python -m compileall`
 <br>
 
+### MIPS
+
 Brand | Device | Type | CPU (MHz) | Flash (MB) | RAM (MB) | Download |
 -------------|-------------|-----------|-----------|-----------|-----------|-----------|
 ALFA Network | R36A  | WiFi Router | 650 | 16 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/r36a-universal-sysupgrade.bin)
@@ -40,7 +42,7 @@ ALFA Network | Hornet-UB x2  | Travel Router | 400 | 16 | 64 | [universal](https
 Buffalo | WZR-HP-G300NH v1 | WiFi Router | 400 | 32 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wzr-hp-g300nh-universal-sysupgrade.bin)
 Buffalo | WZR-HP-AG300H v1 | WiFi Router | 680 | 32 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wzr-hp-ag300h-universal-sysupgrade.bin)
 Buffalo | WZR-600DHP  | WiFi Router | 680 | 32 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wzr-600dhp-universal-sysupgrade.bin)
-Buffalo | WZR-HP-G300NH2 A0A0,A0A1,A1A0,C1A0 | WiFi Router | 400 | 32 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wzr-hp-g300nh2-universal-sysupgrade.bin)
+Buffalo | WZR-HP-G300NH2 | WiFi Router | 400 | 32 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wzr-hp-g300nh2-universal-sysupgrade.bin)
 Buffalo | WZR-HP-G302H A1A0 | WiFi Router | 400 | 32 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/buffalo_wzr-hp-g302h-a1a0-universal-sysupgrade.bin)
 Buffalo | WZR-HP-G450H v1 | WiFi Router | 400 | 32 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wzr-hp-g450h-universal-sysupgrade.bin)
 D-Link | DGL-5500 A1 | WiFi Router | 720 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/dgl-5500-a1-universal-sysupgrade.bin)
@@ -48,7 +50,7 @@ D-Link | DHP-1565  | WiFi Router | 560 | 16 | 128 | [universal](https://github.c
 D-Link | DIR-825 C1 | WiFi Router | 560 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/dir-825-c1-universal-sysupgrade.bin)
 D-Link | DIR-835 A1 | WiFi Router | 560 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/dir-835-a1-universal-sysupgrade.bin)
 GL.iNet | GL-X750 (Spitz)  | WiFi Router | 650 | 16,microSDXC | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/glinet_gl-x750-universal-sysupgrade.bin)
-GL.iNet | GL-MiFi  | Travel Router - Battery powered | 400 | 16 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/gl-mifi-universal-sysupgrade.bin)
+GL.iNet | GL-MiFi  | Travel Router | 400 | 16 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/gl-mifi-universal-sysupgrade.bin)
 GL.iNet | GL-AR150  | Travel Router | 400 | 16 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/gl-ar150-universal-sysupgrade.bin)
 GL.iNet | GL-AR300 v3 | WiFi Router | 560 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/gl-ar300-universal-sysupgrade.bin)
 GL.iNet | GL-AR300M-Lite v1 | Travel Router | 650 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/glinet_gl-ar300m-lite-universal-sysupgrade.bin)
@@ -63,7 +65,7 @@ NETGEAR | WNDRMAC v2 | WiFi Router | 680 | 16 | 128 | [universal](https://github
 NETGEAR | WNDRMAC v1 | WiFi Router | 680 | 16 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/wndrmac-universal-sysupgrade.bin)
 TP-Link | Archer A7 v5 | WiFi Router | 750 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/tplink_archer-a7-v5-universal-sysupgrade.bin)
 TP-Link | Archer C5 AC1200 v1 | WiFi Router | 720 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/archer-c5-v1-universal-sysupgrade.bin)
-TP-Link | Archer C7 v2,v2.1 | WiFi Router | 720 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/archer-c7-v2-universal-sysupgrade.bin)
+TP-Link | Archer C7 v2 - v2.1 | WiFi Router | 720 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/archer-c7-v2-universal-sysupgrade.bin)
 TP-Link | Archer C7 v4 | WiFi Router | 775 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/archer-c7-v4-universal-sysupgrade.bin)
 TP-Link | Archer C7 v5 | WiFi Router | 750 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/archer-c7-v5-universal-sysupgrade.bin)
 TP-Link | Archer C59 v1 | WiFi Router | 775 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/archer-c59-v1-universal-sysupgrade.bin)
@@ -76,6 +78,44 @@ TP-Link | VR200v  | WiFi Router | 500 | 16 | 128 | [universal](https://github.co
 ZBT | ZBT-WD323  | WiFi Router | 560 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/zbtlink_zbt-wd323-universal-sysupgrade.bin)
 ZyXEL | NBG6616 A00 | WiFi Router | 720 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/NBG6616-universal-sysupgrade.bin)
 ZyXEL | NBG6716 A01 | WiFi Router | 720 | 16,256 | 256 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/nbg6716-universal-sysupgrade.tar)
+<br>
+
+
+### MIPSEL
+
+Brand | Device | Type | CPU (MHz) | Flash (MB) | RAM (MB) | Download |
+-------------|-------------|-----------|-----------|-----------|-----------|-----------|
+ALFA Network | AC1200RM  | WiFi Router | 580 | 16 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+ASUS | RT-AC51U  | WiFi Router | 580 | 16 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+ASUS | RT-AC57U v1 | WiFi Router | 880 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+ASUS | RT-N14U C1 | WiFi Router | 600 | 16 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+D-Link | DIR-510L A1 | Travel Router | 580 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+D-Link | DIR-860L B1 | WiFi Router | 880 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+D-Link | DWR-118 A1 | WiFi Router | 580 | 16 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+D-Link | DWR-118 A2 | WiFi Router | 580 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+D-Link | DWR-922 E2 | WiFi Router | 580 | 16 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+GL.iNet | GL-MT300A v1.3 | Travel Router | 580 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+GL.iNet | GL-MT300N v1 | Travel Router | 580 | 16 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+GL.iNet | GL-MT300N v2 | WiFi Router | 580 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+GL.iNet | GL-MT750  | WiFi Router | 580 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+NETGEAR | WNDR3700 v5 | WiFi Router | 880 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+NETGEAR | R6120  | WiFi Router | 580 | 16 | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+NETGEAR | R6220  | WiFi Router | 880 | 128NAND | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+NETGEAR | R6350  | WiFi Router | 880 | 128NAND | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+Xiaomi | Mi Router 3 Pro  | WiFi Router | 880 | 256NAND | 512 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+Xiaomi | Mi WiFi Mini v1 | WiFi Router | 580 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+Xiaomi | MiWiFi 3G v1 | WiFi Router | 880 | 128NAND | 256 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+ZBT | WE826-E  | WiFi Router | 580 | 32 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+ZBT | WE826 B0 16M | WiFi Router | 580 | 16,SD | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+ZBT | WE826 B0 32M | WiFi Router | 580 | 32 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+ZBT | WE1026-5G  | WiFi Router | 580 | 16,microSD | 64 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+ZBT | WE1326  | WiFi Router | 880 | 16 | 512 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+ZBT | WE3526  | WiFi AP | 880 | 16 | 512 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+ZBT | WG2626 v03 | WiFi Router | 880 | 16 | 512 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+ZBT | WG3526 16M | WiFi Router | 880 | 16 | 512 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+ZBT | WG3526 32M | WiFi Router | 880 | 32 | 512 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+ZyXEL | Keenetic Viva rev. B | WiFi Router | 580 | 16 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
+ZyXEL | Keenetic Extra II  | WiFi Router | 580 | 32 | 128 | [universal](https://github.com/xchwarze/wifi-pineapple-cloner-builds/blob/main/releases/xxxxxx)
 <br>
 
 If your manufacturer or model is not built you have to follow the steps of the Universal Wifi pineapple hardware cloner [documentation](https://github.com/xchwarze/wifi-pineapple-cloner).

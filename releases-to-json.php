@@ -43,7 +43,7 @@ foreach ($files as $item) {
 
 echo "[*] Generating file: upgrades.json\n";
 file_put_contents('upgrades.json', json_encode([
-	'changelog' => "See complete changelog in <a href='{$repo_url}' target='_blank'>wifi-pineapple-cloner-builds repo!</a>",
+	'changelog' => "See complete changelog in <a href='{$repo_url}' target='_blank'>Wifi Pineapple Cloner builds repo</a>!",
 	'version'   => $version,
 	'updates'   => $updates,
 ]));
